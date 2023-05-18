@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='hola'>
+      <div>
         <img className='imgM' src='https://media.giphy.com/media/i3EiSibYDhfnNVCcFD/giphy-downsized-large.gif' width={300} height={300}></img>
       </div>
         
