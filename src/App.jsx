@@ -1,19 +1,18 @@
-
-
-import './App.css'
+import "./App.css";
 
 function App() {
- 
-
   return (
     <>
       <div>
-        <img className='imgM' src='https://media.giphy.com/media/i3EiSibYDhfnNVCcFD/giphy-downsized-large.gif' width={300} height={300}></img>
+        <img
+          className="imgM"
+          src="https://media.giphy.com/media/i3EiSibYDhfnNVCcFD/giphy-downsized-large.gif"
+          width={300}
+          height={300}
+        ></img>
       </div>
-        
-      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
