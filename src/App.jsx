@@ -1,12 +1,15 @@
 import "./App.css";
+import { Navbar } from "./components/Navbar/Navbar";
+
 
 function App() {
   return (
     <>
       <div>
-        <a href="/home">
-          <h1 className="here">Click Here</h1>
-        </a>
+        <div className="here">
+        <Navbar/>
+        </div>
+       
 
         <img
           className="imgM"

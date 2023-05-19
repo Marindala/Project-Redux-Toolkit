@@ -1,22 +1,29 @@
-#root {
+/* #root {
   max-width: 1280px;
+  min-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+  padding: 0;
+ 
+} */
 
 .here{
-  margin-left: -130%;
+  margin-left: -90%;
+
+
 }
 
 img.imgM {
-  margin-left: -130%;
-  margin-top: 15%;
+  margin-left: 15%;
+  margin-top: 10%;
+  background-attachment: fixed;
+  position: fixed;
  
 
 }
 
 body {
+  margin: 0%;
+  padding: auto;
   background-image: url(https://media.giphy.com/media/i3EiSibYDhfnNVCcFD/giphy-downsized-large.gif);
   background-attachment: fixed;
   background-size: contain;
