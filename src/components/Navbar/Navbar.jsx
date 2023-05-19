@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div className="container">
       <br></br>
       <br></br>
-      <a className="navbar-brand" href="/">Redux App</a>
+      <a className="navbar-brand" href="/home">Redux Mandalas App</a>
     </div>
   </nav>
   )
