@@ -4,6 +4,7 @@ function App() {
   return (
     <>
       <div>
+        <h1 className="here">Click Here</h1>
         <img
           className="imgM"
           src="https://media.giphy.com/media/i3EiSibYDhfnNVCcFD/giphy-downsized-large.gif"
