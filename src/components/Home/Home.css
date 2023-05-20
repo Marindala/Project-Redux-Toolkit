@@ -1,0 +1,12 @@
+
+
+h1.name{
+   display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.card h1.name{
+    display: flex;
+    align-items: center;
+}

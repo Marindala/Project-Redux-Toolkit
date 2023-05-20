@@ -1,22 +1,21 @@
 import "./App.css";
-import { Navbar } from "./components/Navbar/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { LandingPage } from "./components/LandingPage/LandingPage";
+import { Home } from "./components/Home/Home";
 
 
 function App() {
   return (
     <>
       <div>
-        <div className="here">
-        <Navbar/>
-        </div>
-       
-
-        <img
-          className="imgM"
-          src="https://media.giphy.com/media/i3EiSibYDhfnNVCcFD/giphy-downsized-large.gif"
-          width={300}
-          height={300}
-        ></img>
+        <Router>
+          <div>
+            <Routes>
+              <Route path="/home" element={<Home />} />
+              <Route path="/" element={<LandingPage />} />
+            </Routes>
+          </div>
+        </Router>
       </div>
     </>
   );
