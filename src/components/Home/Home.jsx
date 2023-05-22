@@ -16,7 +16,7 @@ export const Home = () => {
   return (
     <div className="container mt-4">
       <div className=" h-screen absolute w-screen top-0 left-0 -z-10 object-cover">
-        {data.map(
+        {data.map( //cambio data por estado mandalas
           (
             mandala,
             index //aca tiene que ir el estado de mandalas
