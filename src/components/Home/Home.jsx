@@ -1,6 +1,9 @@
-import data from "../../data.jsx";
-
+import data from "../../data.jsx";//esto sería reemplazado por la función que trae los mandalas
+import { getAllMandalas } from '../../redux/sliceMandalas/index.js';
+import { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import "./Home.css";
+
 
 
 
